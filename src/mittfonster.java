@@ -115,8 +115,8 @@ public class mittfonster extends javax.swing.JFrame {
     
     txtsumma.setText(summaString);
         } catch (NumberFormatException e){
-             LRubrik.setText("Ange korrekta siffror");
-            // JOptionPane.showMessageDialog(null, "Vänligen ange korrekta siffror");
+            // LRubrik.setText("Ange korrekta siffror");
+            JOptionPane.showMessageDialog(null, "Vänligen ange korrekta siffror");
         }
 
     }//GEN-LAST:event_BtnAdderaActionPerformed
